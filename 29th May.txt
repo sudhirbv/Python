@@ -1,0 +1,161 @@
+May 29:
+------
+
+1)  variable: 
+	 Variables are containers for storing data values.
+	 A Python variable is a symbolic name that is a reference or pointer to an object. Once an object is assigned to a variable, you can refer to the object by that name.
+
+2)  data type:
+	 Variables can store data of different types, and different types can do different things.
+	 Python has the following data types built-in by default, in these categories:
+     
+	Text Type:	str
+	Numeric Types:	int, float, complex
+	Sequence Types:	list, tuple, range
+	Mapping Type:	dict
+	Set Types:	set, frozenset
+	Boolean Type:	bool
+	Binary Types:	bytes, bytearray, memoryview
+	None Type:	NoneType
+	 
+
+3)  operator (ternary/Arithmetic/comparison/logical/assignment/membership:
+	 Operators are used to perform operations on variables and values.
+	 
+	 Python divides the operators in the following groups:
+	 ------------------------------------------------------
+        Arithmetic operators.  
+			Addition: +	
+			Substraction: -	
+			Multiplication: *	
+			Division: /	
+			Modulus: %	
+			Power: **	
+			Floor division: //	
+        
+		Assignment operators.
+		    =	
+			+=	
+			-=	
+			*=	
+			/=	
+			%=	
+			//=	
+			**=	
+			&=	
+			|=	
+			^=	
+			>>=	
+			<<=    
+		
+        Comparison operators.
+			==
+			!=
+			>
+			<
+			>=
+			<=
+					
+        Logical operators.
+		  And
+		  OR
+		  NOT
+		  
+        Identity operators.
+		  is
+		  is not
+		
+		Membership operators.
+          in
+		  not in
+		  		
+		Bitwise operators.
+		  & 
+		  |
+		  ^
+		  ~ 
+		  <<
+		  >>
+			
+			
+			
+4)  Data structure 
+		List: is a collection which is ordered and changeable. Allows duplicate members.
+		Tuple: is a collection which is ordered and unchangeable. Allows duplicate members.
+		Set: is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+		Dictionary: is a collection which is ordered** and changeable. No duplicate members.
+
+
+5)  function inbuilt function user def recursive function
+		What is a function: 
+		  Python function in any programming language is a sequence of statements in a certain order, given a name. When called, those statements are executed. So we don’t have to write the code again and again for each [type of] data that we want to apply it to. This is called code re-usability.
+		
+		User-Defined Functions:
+		  1) This Python Function help divide a program into modules. This makes the code easier to manage, debug, and scale.
+		  2) It implements code reuse. Every time you need to execute a sequence of statements, all you need to do is to call the function.
+		  3) This Python Function allow us to change functionality easily, and different programmers can work on different functions.
+		  4) To define your own Python function, you use the ‘def’ keyword before its name. And its name is to be followed by parentheses, before a colon(:).	
+		
+		Built-in Functions:
+		   In various previous lessons, we have seen a range of built-in functions by Python. This Python function apply on constructs like print, int, float, bin, hex, string, list, tuple, set, dictionary, and so	
+		
+		Recursion Function:
+			In Python function, recursion is when a function calls itself. To see how this could be useful, let’s try calculating the factorial of a number. Mathematically, a 
+			number’s factorial is:
+
+			n!=n*n-1*n-2*…*2*1
+			
+			
+		Lambda Expressions:
+			A lambda expression in Python allows us to create anonymous python function, and we use the ‘lambda’ keyword for it. The following is the syntax for a lambda expression.
+			
+			lambda arguments:expression
+			
+			It’s worth noting that it can have any number of arguments, but only one expression. It evaluates the value of that expression, and returns the result. Let’s take an example.
+			
+			>>> myvar=lambda a,b:(a*b)+2
+			>>> myvar(3,5)
+			
+
+6)  Keyword
+		Python keywords are special reserved words that have specific meanings and purposes and can’t be used for anything but those specific purposes.
+		These keywords are always available—you’ll never have to import them into your code.
+		you can’t do with Python keywords is assign something to them. If you try, then you’ll get a SyntaxError.
+
+7)  PEP
+	 PEP stands for Python Enhancement Proposal, and there are several of them. A PEP is a document that describes new features proposed for Python and documents aspects of Python, like design and style, for the community.
+
+8)  Camelcase
+		Camel case (sometimes stylized as camelCase or CamelCase; also known as camel caps or more formally as medial capitals) is the practice of writing phrases without spaces or punctuation, indicating the separation of words with a single capitalized letter, and the first word starting with either case
+
+9)  Variable creation rules and program for that
+		Rules for Python variables:
+			A variable name must start with a letter or the underscore character
+			A variable name cannot start with a number
+			A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+			Variable names are case-sensitive (age, Age and AGE are three different variables)
+			
+			#Legal variable names:
+				myvar = "John"
+				my_var = "John"
+				_my_var = "John"
+				myVar = "John"
+				MYVAR = "John"
+				myvar2 = "John"
+
+			
+10)  Compiler vs interpreter
+  Interpreter	
+	1) Translates program one statement at a time.	
+	2) Interpreters usually take less amount of time to analyze the source code. However, the overall execution time is comparatively 
+	slower than compilers.	
+	3) No Object Code is generated, hence are memory efficient.	
+	4) Programming languages like JavaScript, Python, Ruby use interpreters.	
+	
+	
+  Compiler
+	1) Scans the entire program and translates it as a whole into machine code.
+	2) Compilers usually take a large amount of time to analyze the source code. However, the overall execution time is 
+	comparatively faster than interpreters.
+	3) Programming languages like C, C++, Java use compilers.
+	4) Generates Object Code which further requires linking, hence requires more memory.
